@@ -26,6 +26,8 @@ apply plugin: 'com.google.android.gms.strict-version-matcher-plugin'
 android {
     compileSdkVersion 29
 
+    namespace "com.brianmtully.plugins.googlemlvision"
+    
     defaultConfig {
         minSdkVersion 19
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
